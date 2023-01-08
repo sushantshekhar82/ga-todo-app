@@ -1,11 +1,11 @@
- name: Github Action No. 3
+name: Github Action No. 3
 
- on:
+on:
    push:
       branches: ["main"]
   
-  jobs:
-     build:
+jobs:
+    build:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
